@@ -27,7 +27,7 @@ export const {
 		//Usually not nedded, here I am fixing a bug in nextauth
 		async session({ session, user }: any) {
 			if (session && user) {
-				session?.user?.id === user.id
+				session.user.id = user.id
 			}
 
 			return session
