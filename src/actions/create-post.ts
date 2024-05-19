@@ -3,8 +3,8 @@
 import type { Post } from "@prisma/client"
 import { revalidatePath } from "next/cache"
 import { redirect } from "next/navigation"
-import { auth } from "@/auth"
 import { z } from "zod"
+import { auth } from "@/auth"
 import { db } from "@/db"
 import paths from "@/paths"
 
@@ -86,8 +86,6 @@ const createPost = async (
 
 	revalidatePath(paths.topicShow(slug))
 	redirect(paths.postShow(slug, post.id))
-
-	//TODO: revalidate the topic show page
 }
 
 export default createPost
