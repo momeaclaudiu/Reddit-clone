@@ -1,19 +1,16 @@
-"use client"
+"use server"
 
-import type { Comment, User } from "@prisma/client"
 import Image from "next/image"
-import { useState } from "react"
-import { Button } from "@nextui-org/react"
-import CommentCreateForm from "./comment-create-form"
-import { CommentWithAuthor } from "@/db/queries/comments"
+import CommentCreateForm from "@/components/comments/comment-create-form"
+import { fetchCommentByPostId } from "@/db/queries/comments"
 
 interface CommentShowProps {
 	commentId: string
-	comments: CommentWithAuthor[]
+	postId: string
 }
 
-const CommentShow = ({ commentId, comments }: CommentShowProps) => {
-	const [open, setOpen] = useState(false)
+const CommentShow = async ({ commentId, postId }: CommentShowProps) => {
+	const comments = await fetchCommentByPostId(postId)
 	const comment = comments.find((c) => c.id === commentId)
 
 	if (!comment) {
@@ -23,11 +20,7 @@ const CommentShow = ({ commentId, comments }: CommentShowProps) => {
 	const children = comments.filter((c) => c.parentId === commentId)
 	const renderedChildren = children.map((child) => {
 		return (
-			<CommentShow
-				key={child.id}
-				commentId={child.id}
-				comments={comments}
-			/>
+			<CommentShow key={child.id} commentId={child.id} postId={postId} />
 		)
 	})
 
@@ -46,20 +39,11 @@ const CommentShow = ({ commentId, comments }: CommentShowProps) => {
 						{comment.user.name}
 					</p>
 					<p className="text-gray-900">{comment.content}</p>
-					<Button
-						size="sm"
-						variant="light"
-						onClick={() => setOpen(!open)}
-					>
-						Reply
-					</Button>
-					{open && (
-						<CommentCreateForm
-							onCommentCreate={() => setOpen(false)}
-							postId={comment.postId}
-							parentId={comment.id}
-						/>
-					)}
+
+					<CommentCreateForm
+						postId={comment.postId}
+						parentId={comment.id}
+					/>
 				</div>
 			</div>
 			<div className="pl-4">{renderedChildren}</div>
