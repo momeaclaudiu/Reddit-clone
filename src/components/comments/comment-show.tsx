@@ -5,10 +5,11 @@ import Image from "next/image"
 import { useState } from "react"
 import { Button } from "@nextui-org/react"
 import CommentCreateForm from "./comment-create-form"
+import { CommentWithAuthor } from "@/db/queries/comments"
 
 interface CommentShowProps {
 	commentId: string
-	comments: (Comment & { user: Partial<User> })[]
+	comments: CommentWithAuthor[]
 }
 
 const CommentShow = ({ commentId, comments }: CommentShowProps) => {

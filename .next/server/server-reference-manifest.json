@@ -3,64 +3,64 @@
     "2cbc1137b22a28f4c60f2e8facb79e1798e4c8a6": {
       "workers": {
         "app/topics/[slug]/posts/[postId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
-        "app/topics/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
+        "app/topics/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/topics/[slug]/posts/[postId]/page": "action-browser",
-        "app/topics/[slug]/page": "action-browser",
-        "app/page": "action-browser"
+        "app/page": "action-browser",
+        "app/topics/[slug]/page": "action-browser"
       }
     },
     "3d24c3d82ed4be9fd363232ef5c5c9f79891a0ea": {
       "workers": {
         "app/topics/[slug]/posts/[postId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
-        "app/topics/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
+        "app/topics/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/topics/[slug]/posts/[postId]/page": "action-browser",
-        "app/topics/[slug]/page": "action-browser",
-        "app/page": "action-browser"
+        "app/page": "action-browser",
+        "app/topics/[slug]/page": "action-browser"
       }
     },
     "936347f491d5ada867925ef2bb1d51728a2efae5": {
       "workers": {
         "app/topics/[slug]/posts/[postId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
-        "app/topics/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
+        "app/topics/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/topics/[slug]/posts/[postId]/page": "action-browser",
-        "app/topics/[slug]/page": "action-browser",
-        "app/page": "action-browser"
+        "app/page": "action-browser",
+        "app/topics/[slug]/page": "action-browser"
       }
     },
     "a398f9648edd1b5643c5048d480d7132fe1c644c": {
       "workers": {
         "app/topics/[slug]/posts/[postId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
-        "app/topics/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
+        "app/topics/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/topics/[slug]/posts/[postId]/page": "action-browser",
-        "app/topics/[slug]/page": "action-browser",
-        "app/page": "action-browser"
+        "app/page": "action-browser",
+        "app/topics/[slug]/page": "action-browser"
       }
     },
     "dac2f1f1a4a273a461faf5e45ba95bf219e7a5aa": {
       "workers": {
         "app/topics/[slug]/posts/[postId]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
-        "app/topics/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
-        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
+        "app/topics/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fcladiumomea%2FWorkspace%2FNextJs%2Freddit-clone%2Fsrc%2Factions%2Findex.ts%22%2C%5B%22signIn%22%2C%22createTopic%22%2C%22signOut%22%2C%22createComment%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/topics/[slug]/posts/[postId]/page": "action-browser",
-        "app/topics/[slug]/page": "action-browser",
-        "app/page": "action-browser"
+        "app/page": "action-browser",
+        "app/topics/[slug]/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "QZE3wTvelpNZ7G1g+M290HJtIxFA4+HmqabuOPZwpJc="
+  "encryptionKey": "jdtq5VfvtoyrFhPHYz/DhZW+Jdo4cuLbb+j8hBJIAH8="
 }
