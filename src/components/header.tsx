@@ -1,5 +1,4 @@
 import {
-	Input,
 	Navbar,
 	NavbarBrand,
 	NavbarContent,
@@ -8,6 +7,7 @@ import {
 import Link from "next/link"
 
 import HeaderAuth from "./header-auth"
+import SearchInput from "./search-input"
 
 const Header = async () => {
 	return (
@@ -19,7 +19,7 @@ const Header = async () => {
 			</NavbarBrand>
 			<NavbarContent justify="center">
 				<NavbarItem>
-					<Input />
+					<SearchInput />
 				</NavbarItem>
 			</NavbarContent>
 
