@@ -5,7 +5,7 @@ interface PostShowProps {
 	postId: string
 }
 
-export default async function PostShow({ postId }: PostShowProps) {
+const PostShow = async ({ postId }: PostShowProps) => {
 	const post = await db.post.findFirst({
 		where: { id: postId },
 	})
@@ -20,3 +20,5 @@ export default async function PostShow({ postId }: PostShowProps) {
 		</div>
 	)
 }
+
+export default PostShow
